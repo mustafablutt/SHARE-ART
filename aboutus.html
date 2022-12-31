@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Art</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.container{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/about.jpg) ;    
+
+}
+.header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+
+.logo{
+    position: fixed;
+	top: 0;
+    left: 0;
+    float: left;
+    width: 300px;
+    cursor:pointer;
+    padding: 10px;
+	height: auto;
+	margin:0 auto;
+    
+  
+
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-right: 15px;
+    margin-top: 25px;
+   
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 25px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{   
+    background-color: #fff;
+    color: #000;
+}
+#social{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    font-size: 30px;
+    text-align: left;
+    padding: 15px;
+    color: white;
+}
+.baslık{
+    border: 5px solid rgb(231, 227, 227);
+    position: fixed;
+    transform: translate(-50%, -50%);
+   
+    top: 50%;
+    left: 50%;
+    border-radius: 45px;
+    
+    
+   
+}
+.baslık h1{
+    color: white;
+    font-size: 60px;
+    text-transform: none;
+    font-style: italic;
+ 
+}
+#k{
+    text-align: center;
+}
+
+
+
+.baslık h2{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+   
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html"><img src="/images/logowhite.png" alt="logo"></a> 
+        
+        </div>
+        
+        
+        <div id="social">
+        
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            
+            <li><a href="categories.html">Categories</a></li>
+            
+            <li class="active"><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="notifyme.html">Notify Me</a></li>
+           
+    
+        </ul>
+
+    <div class="container">
+
+    <div class="content">
+        
+    </div>
+    
+</div>
+<div class="baslık">
+    <h1 id="k">About Us</h1>
+    <h2>We connect you with the world of art. As Share ART, we provide information about artworks of famous artists and artits themself!
+    We are building a platform that has never done before. Don't forget to get notified!
+    If you have questions or something is missing, you can reach us!</h2>
+</div>
+
+
+</header>
+
+
+</body>
+</html>
